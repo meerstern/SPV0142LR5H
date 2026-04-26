@@ -1,0 +1,5 @@
+"ID";"参照記号";"パッケージ";"数";"名称";"Supplier and ref";
+1;"REF2,REF1";"MountingHole_3mm";2;"MountingHole_3mm";;;
+2;"U1";"SPV0142LR5H";1;"SPV0142LR5H";;;
+3;"J1";"PinHeader_1x03_P2.54mm_Vertical";1;"Conn_01x03";;;
+4;"C1";"C_1206_3216Metric";1;"0.1u";;;
