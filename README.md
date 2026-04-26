@@ -32,6 +32,28 @@ The Converter board with SPV0142LR5H
 SPU0410LR5Hの生産完了に伴い、後継品のSPV0142LR5Hに移行しました。
 
 
+
+## Overview
+* This is a circuit board that converts the Syntiant [Analog Output MEMS Microphone SPV0142LR5H] [1] to a 2.54mm pitch.
+* It can sense a wide frequency range from audible sound to ultrasound (100Hz to 80kHz) with high sensitivity.
+* It has a very flat frequency response (20Hz-10kHz ±2dB, 10kHz-80kHz ±10dB).
+* It can be used for ultrasonic sensors and ultrasonic communication.
+* The microphone hole is the circled area on the back of the circuit board.
+* Power supply voltage: 1.5V~3.6V
+* This is a successor to the SPU0410LR5H, and except for the footprint, the frequency response and electrical characteristics are almost the same.
+
+## Ultrasonic Microphone Comparison
+
+We offer a variety of products to suit different applications.
+| Product Name | Output | Amplifier (Yes/No) | Application |
+|:-----------|:------------|:------------|:------------|
+| [Analog Output Microphone (This Product)][A] | Analog | No | When use external amplifier circuit |
+| [Analog Output Microphone with Built-in Variable Amplifier][B] | Analog | Yes (Variable 1-50x) | When adjust the amplification factor |
+| [Analog Output Microphone with Built-in Amplifier][C] | Analog | Yes (Fixed 50x) | When need constant amplification |
+| [Digital Output Microphone][D] | Digital PDM | Not Required | When implement fully digitally or when a wide range is required |
+
+
+
 License - MIT
 
 [1]: https://static1.squarespace.com/static/6488b0b8150a045d2d112999/t/67caf41d815fb04909623d2d/1741354016529/SPV0142LR5H-1-datasheet.pdf
